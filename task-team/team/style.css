@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: bahij-sultannahia;
+  src: url("bahij-sultannahia.ttf");
+}
+@font-face {
+  font-family: ChronicaPro-Regular;
+  src: url("ChronicaPro-Regular.ttf");
+}
+body {
+  overflow-x: hidden;
+  background-color: #e8eaea;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0 20px 0;
+}
+header nav {
+  margin-right: -40px;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+header nav ul li {
+  list-style: none;
+  padding: 0 55px 0 55px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: Tahoma_bold;
+  color: #44375f;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  color: #869bef;
+}
+
+main {
+  background-color: #e8eaea;
+}
+main .main-content-first {
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+main .main-content-first .andy-name, main .main-content-first .julian-name, main .main-content-first .russell-name, main .main-content-first .john-name {
+  padding: 15px 70px 15px 65px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+main .main-content-first .andy-name:hover, main .main-content-first .julian-name:hover, main .main-content-first .russell-name:hover, main .main-content-first .john-name:hover {
+  background-color: #1680fd;
+  transition: 1s;
+}
+main .main-content-first .andy-name:hover h2, main .main-content-first .julian-name:hover h2, main .main-content-first .russell-name:hover h2, main .main-content-first .john-name:hover h2 {
+  color: #fff;
+  transition: 1s;
+}
+main .main-content-first .andy-name h2, main .main-content-first .julian-name h2, main .main-content-first .russell-name h2, main .main-content-first .john-name h2 {
+  color: #444646;
+  text-align: center;
+  padding-top: 15px;
+}
+main .main-content-first .andy-name p, main .main-content-first .julian-name p, main .main-content-first .russell-name p, main .main-content-first .john-name p {
+  color: #c3c5c5;
+  text-align: center;
+}
+main .main-content-first .andy-name .date, main .main-content-first .julian-name .date, main .main-content-first .russell-name .date, main .main-content-first .john-name .date {
+  padding-top: 20px;
+}
+main .main-content-first .andy-name img, main .main-content-first .julian-name img, main .main-content-first .russell-name img, main .main-content-first .john-name img {
+  border-radius: 70px;
+}
+main .main-content-first .russell-name {
+  padding: 15px 30px 15px 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+main .main-content-first .russell-name img {
+  margin-left: 25px;
+}
+main .main-content-second {
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+main .main-content-second .larry-name, main .main-content-second .dominic-name, main .main-content-second .estella-name, main .main-content-second .dominic1-name {
+  padding: 15px 60px 15px 55px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+main .main-content-second .larry-name:hover, main .main-content-second .dominic-name:hover, main .main-content-second .estella-name:hover, main .main-content-second .dominic1-name:hover {
+  background-color: #1680fd;
+  transition: 2s;
+}
+main .main-content-second .larry-name:hover h2, main .main-content-second .dominic-name:hover h2, main .main-content-second .estella-name:hover h2, main .main-content-second .dominic1-name:hover h2 {
+  color: #fff;
+  transition: 1s;
+}
+main .main-content-second .larry-name h2, main .main-content-second .dominic-name h2, main .main-content-second .estella-name h2, main .main-content-second .dominic1-name h2 {
+  color: #444646;
+  text-align: center;
+  padding-top: 15px;
+}
+main .main-content-second .larry-name p, main .main-content-second .dominic-name p, main .main-content-second .estella-name p, main .main-content-second .dominic1-name p {
+  color: #c3c5c5;
+  text-align: center;
+}
+main .main-content-second .larry-name .date, main .main-content-second .dominic-name .date, main .main-content-second .estella-name .date, main .main-content-second .dominic1-name .date {
+  padding-top: 20px;
+}
+main .main-content-second .larry-name img, main .main-content-second .dominic-name img, main .main-content-second .estella-name img, main .main-content-second .dominic1-name img {
+  border-radius: 70px;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

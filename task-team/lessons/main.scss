@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family:bahij-sultannahia;
+    src: url('bahij-sultannahia.ttf');
+}
+@font-face {
+    font-family:ChronicaPro-Regular;
+    src: url('ChronicaPro-Regular.ttf');
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #e8eaea;
+}
+
+header{
+   background-color: #fff;
+   padding: 15px 0 15px 0;
+     nav{
+        margin-right: -40px;
+           ul{
+             display: flex;
+             justify-content:center;
+             margin-right: 30px;
+                li{
+                  list-style: none;
+                  padding: 0  55px 0 55px;
+                  font-size:16px;
+                  font-weight:bold;
+                  display: block;
+                    a{
+                     text-decoration: none;
+                     font-family:Tahoma_bold;
+                     color: #44375f;
+                        &:hover{
+                         text-decoration: none;
+                         color: #869bef;
+                        }
+                    }
+               }
+          }
+     }
+}
+
+
+.main-content{
+   td,th{
+     width: 300px;
+     height: 60px;
+     color: #303236;
+   }
+   table{
+     margin: 10px auto;
+     border-spacing: 0;
+   } 
+   tr:hover{
+     background-color: #fcfefe;
+     border-radius: 50px;
+   }
+   .uil-download-alt{
+      font-size: 20px;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+        &:hover{
+          background-color: #1680fd;
+          color: #fff;
+          border: 1px solid #1680fd;
+          border-radius: 5px;
+        }
+    }
+}
+
+
+

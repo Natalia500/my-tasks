@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+@font-face {
+    font-family:bahij-sultannahia;
+    src: url('bahij-sultannahia.ttf');
+}
+@font-face {
+    font-family:ChronicaPro-Regular;
+    src: url('ChronicaPro-Regular.ttf');
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #e8eaea;
+}
+
+header{
+   background-color: #fff;
+   padding: 20px 0 20px 0;
+      nav{
+        margin-right: -40px;
+          ul{
+            display: flex;
+            justify-content:center;
+            margin-right: 30px;
+              li{
+                list-style: none;
+                padding: 0  55px 0 55px;
+                font-size:16px;
+                font-weight:bold;
+                display: block;
+                   a{
+                     text-decoration: none;
+                     font-family:Tahoma_bold;
+                     color: #44375f;
+                        &:hover{
+                           text-decoration: none;
+                           color: #869bef;
+                        }
+                    }
+               }
+          }
+     }
+}
+
+main{
+   background-color: #e8eaea;
+   .main-content-first{
+      padding: 20px 0 20px 0;
+      display: flex;
+      justify-content: center;
+         .andy-name, .julian-name,.russell-name, .john-name{
+             padding: 15px 70px 15px 65px;
+             background-color: #fff;
+             border-radius: 15px;
+             margin-right: 40px;
+                &:hover{
+                   background-color: #1680fd;
+                   transition: 1s;
+                     h2{
+                        color: #fff;
+                        transition: 1s;
+                     }
+                 }
+                 h2{
+                  color: #444646;
+                  text-align: center;
+                  padding-top: 15px;
+                     
+                }
+                p{
+                 color: #c3c5c5;
+                 text-align: center;
+                }
+                .date{
+                   padding-top: 20px;
+                }
+                img{
+                   border-radius:70px; 
+                }
+           }
+           .russell-name{
+             padding: 15px 30px 15px 40px;
+             background-color: #fff;
+             border-radius: 15px;
+             margin-right: 40px; 
+                img{
+                  margin-left:25px;
+               }
+           }
+      } 
+      .main-content-second{
+         padding: 20px 0 20px 0;
+         display: flex;
+         justify-content: center;
+        .larry-name, .dominic-name, .estella-name, .dominic1-name{
+             padding: 15px 60px 15px 55px;
+             background-color: #fff;
+             border-radius: 15px;
+             margin-right: 40px;
+                &:hover{
+                   background-color: #1680fd;
+                   transition: 2s;
+                    h2{
+                        color: #fff;
+                        transition: 1s;
+                    }
+                }
+                h2{
+                  color: #444646;
+                  text-align: center;
+                  padding-top: 15px;
+                    
+                }
+                p{
+                 color: #c3c5c5;
+                 text-align: center;
+                }
+                .date{
+                   padding-top: 20px;
+                }
+                img{
+                   border-radius:70px; 
+                    margin-left: 20px;
+              }
+         }
+    }
+}   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
